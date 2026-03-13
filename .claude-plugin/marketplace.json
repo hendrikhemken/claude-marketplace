@@ -5,28 +5,15 @@
     "email": "hendrik@beyond7.ai"
   },
   "metadata": {
-    "description": "Beyond7 Claude Code Plugins — Workshops, Security, Onboarding",
-    "version": "1.0.0"
+    "description": "Beyond7 Claude Code Plugins — Productivity, OKRs, Daily Routines",
+    "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "workshop-tools",
-      "source": {
-        "source": "github",
-        "repo": "hendrikhemken/claude-plugin-workshop-tools",
-        "ref": "main"
-      },
-      "description": "Skills für Workshop-Durchführung: Recaps, Icebreaker, Session-Management",
-      "version": "1.0.0",
-      "author": { "name": "Hendrik Hemken" },
-      "keywords": ["workshop", "training", "facilitation"],
-      "category": "productivity"
-    },
-    {
       "name": "productivity-kit",
       "source": {
-        "source": "github",
-        "repo": "hendrikhemken/claude-plugin-productivity-kit",
+        "source": "url",
+        "url": "https://github.com/hendrikhemken/claude-plugin-productivity-kit.git",
         "ref": "main"
       },
       "description": "OKR tracking + daily routines for solo entrepreneurs and small teams",
