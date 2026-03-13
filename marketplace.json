@@ -1,0 +1,30 @@
+{
+  "name": "Beyond7 Claude Plugin Marketplace",
+  "version": "1.0.0",
+  "description": "Curated collection of Claude Code plugins by Hendrik Hemken / Beyond7",
+  "author": {
+    "name": "Hendrik Hemken",
+    "url": "https://beyond7.ai"
+  },
+  "plugins": [
+    {
+      "name": "workshop-tools",
+      "description": "Skills für Workshop-Durchführung: Recaps, Icebreaker, Session-Management",
+      "version": "1.0.0",
+      "repository": "https://github.com/hendrikhemken/claude-plugin-workshop-tools",
+      "install": "npx skills add hendrikhemken/claude-plugin-workshop-tools --agent \"Claude Code\" --copy --yes",
+      "keywords": ["workshop", "training", "facilitation"],
+      "category": "productivity"
+    },
+    {
+      "name": "productivity-kit",
+      "description": "OKR tracking + daily routines for solo entrepreneurs and small teams",
+      "version": "1.0.0",
+      "repository": "https://github.com/hendrikhemken/claude-plugin-productivity-kit",
+      "install": "npx skills add hendrikhemken/claude-plugin-productivity-kit --agent \"Claude Code\" --copy --yes",
+      "skills": ["setup", "good-morning", "okr-monday", "okr-friday", "journal", "okr-expert"],
+      "keywords": ["okr", "productivity", "journal", "morning-routine"],
+      "category": "productivity"
+    }
+  ]
+}
