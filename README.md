@@ -1,15 +1,15 @@
-# Beyond7 Claude Plugin Marketplace
+# Beyond7 Plugin Marketplace
 
-Curated Claude Code plugins by [Hendrik Hemken / Beyond7](https://beyond7.ai).
+Claude Code plugins by [Hendrik Hemken / Beyond7](https://beyond7.ai).
 
 ---
 
 ## Installation
 
-### 1. Marketplace hinzufuegen
+### 1. Marketplace hinzufügen
 
 ```
-/plugin marketplace add hendrikhemken/claude-marketplace
+/plugin marketplace add hendrikhemken/beyond7-marketplace
 ```
 
 ### 2. Plugins browsen und installieren
@@ -41,29 +41,6 @@ OKR tracking + daily routines for solo entrepreneurs and small teams.
 - OKR expert advisor (Wodtke + Klau + Cagan)
 
 [Repository](https://github.com/hendrikhemken/claude-plugin-productivity-kit)
-
-### Workshop Tools
-
-Skills for workshop facilitation: Recaps, Icebreaker, Session-Management.
-
-**Install:**
-```
-/plugin install workshop-tools@beyond7-tools
-```
-
-[Repository](https://github.com/hendrikhemken/claude-plugin-workshop-tools)
-
----
-
-## Alternative Installation (npx skills CLI)
-
-All plugins can also be installed via the community `npx skills` CLI:
-
-```bash
-npx skills add hendrikhemken/<plugin-repo> --agent "Claude Code" --copy --yes
-```
-
-This installs skills into your project's `.claude/skills/` directory.
 
 ---
 
